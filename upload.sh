@@ -1,1 +1,1 @@
-pod repo push PrivatePods ModuleA_Category.podspec --verbose --allow-warnings
+pod repo push PrivatePod ModuleA_Category.podspec --verbose --allow-warnings

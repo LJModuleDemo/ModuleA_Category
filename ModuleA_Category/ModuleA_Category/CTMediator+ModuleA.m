@@ -8,6 +8,10 @@
 
 #import "CTMediator+ModuleA.h"
 
-@implementation CTMediator_ModuleA
 
+@implementation CTMediator(ModuleA)
+-(UIViewController *)ModuleA_ViewContrller{
+    return [self performTarget:@"ModuleA" action:@"ViewController" params:nil shouldCacheTarget:NO];
+}
 @end
+

@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CTMediator/CTMediator.h>
 
-@interface CTMediator_ModuleA : NSObject
-
+@interface CTMediator(ModuleA)
+-(UIViewController*) ModuleA_ViewContrller;
 @end
+

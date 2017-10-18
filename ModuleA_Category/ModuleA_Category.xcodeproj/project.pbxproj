@@ -11,6 +11,8 @@
 		84E2CA0D1F972FE600DDFD3F /* ModuleA_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E2CA031F972FE600DDFD3F /* ModuleA_Category.framework */; };
 		84E2CA121F972FE600DDFD3F /* ModuleA_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2CA111F972FE600DDFD3F /* ModuleA_CategoryTests.m */; };
 		84E2CA141F972FE600DDFD3F /* ModuleA_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E2CA061F972FE600DDFD3F /* ModuleA_Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84E2CA5D1F97514A00DDFD3F /* CTMediator+ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E2CA5B1F97514A00DDFD3F /* CTMediator+ModuleA.h */; };
+		84E2CA5E1F97514A00DDFD3F /* CTMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2CA5C1F97514A00DDFD3F /* CTMediator+ModuleA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		84E2CA0C1F972FE600DDFD3F /* ModuleA_CategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleA_CategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E2CA111F972FE600DDFD3F /* ModuleA_CategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleA_CategoryTests.m; sourceTree = "<group>"; };
 		84E2CA131F972FE600DDFD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E2CA5B1F97514A00DDFD3F /* CTMediator+ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleA.h"; sourceTree = "<group>"; };
+		84E2CA5C1F97514A00DDFD3F /* CTMediator+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleA.m"; sourceTree = "<group>"; };
 		B5A6AEE86F43D04B1E8F4D93 /* Pods-ModuleA_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA_Category.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ModuleA_Category/Pods-ModuleA_Category.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +84,8 @@
 			children = (
 				84E2CA061F972FE600DDFD3F /* ModuleA_Category.h */,
 				84E2CA071F972FE600DDFD3F /* Info.plist */,
+				84E2CA5B1F97514A00DDFD3F /* CTMediator+ModuleA.h */,
+				84E2CA5C1F97514A00DDFD3F /* CTMediator+ModuleA.m */,
 			);
 			path = ModuleA_Category;
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E2CA5D1F97514A00DDFD3F /* CTMediator+ModuleA.h in Headers */,
 				84E2CA141F972FE600DDFD3F /* ModuleA_Category.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E2CA5E1F97514A00DDFD3F /* CTMediator+ModuleA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
